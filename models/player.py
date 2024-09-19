@@ -8,8 +8,7 @@ class Player:
    three_percent: float
    two_percent: float
    effective_fg_percent: float
-   assists: int
-   turnovers: int
+   atr: float
    points: int
    team: str
    season: int

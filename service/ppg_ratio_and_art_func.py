@@ -24,4 +24,5 @@ def ppg_ratio(player: Player, data: List[Player]) -> float:
     ppg = (player.points / player.games) / average_points_of_all_players(data)
     return ppg
 
-
+def atr_calculator(assists: int, turnovers: int) -> float:
+    return assists / turnovers if turnovers > 0 else assists
